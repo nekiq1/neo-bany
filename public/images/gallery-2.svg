@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d120a"/><stop offset="1" stop-color="#0a0604"/></linearGradient>
+<radialGradient id="glow" cx="50%" cy="35%" r="60%"><stop offset="0" stop-color="#f5a742" stop-opacity=".55"/><stop offset="1" stop-color="#f5a742" stop-opacity="0"/></radialGradient>
+<linearGradient id="drop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7ee8ee"/><stop offset="1" stop-color="#1b8fa8"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2fb7c4"/><stop offset="1" stop-color="#0b4a5e"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="blur2"><feGaussianBlur stdDeviation="40"/></filter>
+</defs><rect width="800" height="500" fill="url(#bg)"/><rect x="0.0" y="0" width="37.0" height="260" fill="#000" opacity="0.17"/>
+<rect x="40.0" y="0" width="37.0" height="260" fill="#000" opacity="0.11"/>
+<rect x="80.0" y="0" width="37.0" height="260" fill="#000" opacity="0.08"/>
+<rect x="120.0" y="0" width="37.0" height="260" fill="#000" opacity="0.15"/>
+<rect x="160.0" y="0" width="37.0" height="260" fill="#000" opacity="0.11"/>
+<rect x="200.0" y="0" width="37.0" height="260" fill="#000" opacity="0.07"/>
+<rect x="240.0" y="0" width="37.0" height="260" fill="#000" opacity="0.20"/>
+<rect x="280.0" y="0" width="37.0" height="260" fill="#000" opacity="0.17"/>
+<rect x="320.0" y="0" width="37.0" height="260" fill="#000" opacity="0.06"/>
+<rect x="360.0" y="0" width="37.0" height="260" fill="#000" opacity="0.14"/>
+<rect x="400.0" y="0" width="37.0" height="260" fill="#000" opacity="0.13"/>
+<rect x="440.0" y="0" width="37.0" height="260" fill="#000" opacity="0.22"/>
+<rect x="480.0" y="0" width="37.0" height="260" fill="#000" opacity="0.18"/>
+<rect x="520.0" y="0" width="37.0" height="260" fill="#000" opacity="0.07"/>
+<rect x="560.0" y="0" width="37.0" height="260" fill="#000" opacity="0.25"/>
+<rect x="600.0" y="0" width="37.0" height="260" fill="#000" opacity="0.03"/>
+<rect x="640.0" y="0" width="37.0" height="260" fill="#000" opacity="0.10"/>
+<rect x="680.0" y="0" width="37.0" height="260" fill="#000" opacity="0.19"/>
+<rect x="720.0" y="0" width="37.0" height="260" fill="#000" opacity="0.04"/>
+<rect x="760.0" y="0" width="37.0" height="260" fill="#000" opacity="0.12"/>
+<rect y="240" width="800" height="260" fill="url(#water)"/><path d="M0 260 Q 100 240 200 260 T 400 260 T 600 260 T 800 260" fill="none" stroke="#c9f6f8" stroke-opacity="0.50" stroke-width="3"/><path d="M0 294 Q 100 274 200 294 T 400 294 T 600 294 T 800 294" fill="none" stroke="#c9f6f8" stroke-opacity="0.42" stroke-width="3"/><path d="M0 328 Q 100 308 200 328 T 400 328 T 600 328 T 800 328" fill="none" stroke="#c9f6f8" stroke-opacity="0.34" stroke-width="3"/><path d="M0 362 Q 100 342 200 362 T 400 362 T 600 362 T 800 362" fill="none" stroke="#c9f6f8" stroke-opacity="0.26" stroke-width="3"/><path d="M0 396 Q 100 376 200 396 T 400 396 T 600 396 T 800 396" fill="none" stroke="#c9f6f8" stroke-opacity="0.18" stroke-width="3"/><path d="M0 430 Q 100 410 200 430 T 400 430 T 600 430 T 800 430" fill="none" stroke="#c9f6f8" stroke-opacity="0.10" stroke-width="3"/>
+<circle cx="140" cy="80" r="60" fill="#3cc3c9" opacity=".25" filter="url(#blur)"/>
+<rect x="0" y="236" width="800" height="10" fill="#f5a742" opacity=".6"/></svg>

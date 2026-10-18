@@ -1,0 +1,10 @@
+Зависимости (Railway установит их сам)
+node_modules/
+Собранный проект (Railway соберет его сам)
+dist/ build/
+Локальная база данных PocketBase (НЕЛЬЗЯ загружать на GitHub)
+pb_data/
+Файлы окружения с секретами (ключи API, пароли)
+.env .env.local .env.production
+Системный мусор (создается macOS и Windows автоматически)
+.DS_Store Thumbs.db *.log

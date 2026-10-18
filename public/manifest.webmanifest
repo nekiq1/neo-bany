@@ -1,0 +1,11 @@
+{
+  "name": "Баня «Капля»",
+  "short_name": "Капля",
+  "start_url": "/s/kaplya",
+  "display": "standalone",
+  "background_color": "#0b0805",
+  "theme_color": "#f0a04b",
+  "icons": [
+    { "src": "/images/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
