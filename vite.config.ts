@@ -3,10 +3,13 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  // Разрешаем все хосты для деплоя на Railway
   server: {
-    port: 5173,
+    allowedHosts: true,
+    host: '0.0.0.0' // Важно для контейнера
   },
   preview: {
-    allowedHosts: ['neo-product.up.railway.app'],
-  },
+    allowedHosts: true,
+    host: '0.0.0.0'
+  }
 })
